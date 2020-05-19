@@ -4,7 +4,9 @@
 </head>
 <body>
 
-    Student is confirmed: ${param.firstname} ${param.lastname}
+Student is confirmed: ${param.firstname} ${param.lastname}
+<br/><br/>
+Student's country: ${param.country}
 
 </body>
 </html>
