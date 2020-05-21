@@ -5,9 +5,9 @@
 
 <%
     List<Student> data = new ArrayList<>();
-    data.add(new Student("John", "Doe", false));
-    data.add(new Student("Max", "Johnson", false));
-    data.add(new Student("Mary", "Public", true));
+    data.add(new Student("John", "Doe", false, email));
+    data.add(new Student("Max", "Johnson", false, email));
+    data.add(new Student("Mary", "Public", true, email));
 
     pageContext.setAttribute("students", data);
 %>

@@ -5,12 +5,22 @@
     <title>Students</title>
 </head>
 <body>
-<ul>
+<h2>Student Table</h2>
+<br/>
+<table border="1">
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+    </tr>
+
     <c:forEach var="student" items="${students}">
-    <li>${student}</li>
+        <tr>
+            <td>${student.firstName}</td>
+            <td>${student.lastName}</td>
+            <td>${student.email}</td>
+        </tr>
     </c:forEach>
-
-</ul>
-
+</table>
 </body>
 </html>

@@ -3,12 +3,12 @@ package com.example.jsp.tagdemo;
 public class Student {
     private String firstName;
     private String lastName;
-    private boolean goldCustomer;
+    private String email;
 
-    public Student(String firstName, String lastName, boolean goldCustomer) {
+    public Student(String firstName, String lastName, String email) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.goldCustomer = goldCustomer;
+        this.email = email;
     }
 
     public String getFirstName() {
@@ -27,11 +27,11 @@ public class Student {
         this.lastName = lastName;
     }
 
-    public boolean isGoldCustomer() {
-        return goldCustomer;
+    public String getEmail() {
+        return email;
     }
 
-    public void setGoldCustomer(boolean goldCustomer) {
-        this.goldCustomer = goldCustomer;
+    public void setEmail(String email) {
+        this.email = email;
     }
 }
